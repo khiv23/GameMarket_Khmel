@@ -2,6 +2,9 @@ body {
     background: linear-gradient(to  right, rgb(236, 175, 175), yellow);
     opacity: 1;   
   }
-
+  img{
+    width: 100px;
+    height: 100px;
+  }
 
 
