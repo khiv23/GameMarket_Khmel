@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: 20px;
+    justify-content: space-around;
+    justify-content: flex-end;
+    gap: 20px;
+    div{
+        Border:6px Solid red;
+        height: 100vh;
+       
+    }
+
+}
