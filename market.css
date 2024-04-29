@@ -1,0 +1,14 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+head{
+    background-color: blue;
+    color: #36a062;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
