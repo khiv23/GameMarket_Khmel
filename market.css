@@ -1,14 +1,77 @@
-body{
+body {
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     gap: 20px;
 }
-head{
+
+head {
     background-color: blue;
     color: #36a062;
     font-size: 50px;
     text-align: center;
     border-radius: 20px;
+}
+
+div {
+    border: 1px solid darkgrey
+}
+
+/*Блок заголовку*/
+title {
+    background: red rgb(253, 48, 48);
+    width: auto;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 3px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*Блок окремого товару*/
+.item {
+    min-width: 200px;
+    min-height: 400px;
+    margin-bottom: 10px;
+
+    background-color: aliceblue;
+
+    border: 1px solid ghostwhite rgb(194, 194, 194);
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 3);
+}
+
+.contacts p {
+    margin: 3px;
+
+}
+
+.contacts p {
+    margin: 3px;
+}
+
+.contacts p:first-child {
+    font-weight: bold;
+}
+
+.contacts p:last-child {
+    border-left: 3px solid rgb(253, 48, 48);
+}
+
+.license {
+
+    font-size: 9px;
+    text-align: justify;
+    color: rgb(120, 120, 120);
+
 }
