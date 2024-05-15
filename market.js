@@ -29,3 +29,19 @@ if (itemsDiv) {
     
     console.log("Блок товарів не знайдено")
 }
+var goodsArray = [
+    { id: 1, name: 'Товар 1' },
+    { id: 2, name: 'Товар 2' },
+    { id: 3, name: 'Товар 3' },
+    { id: 4, name: 'Товар 4' },
+    { id: 5, name: 'Товар 5' },
+    { id: 6, name: 'Товар 6' },
+    { id: 7, name: 'Товар 7' },
+    { id: 8, name: 'Товар 8' },
+    { id: 9, name: 'Товар 9' },
+    { id: 10, name: 'Товар 10' },
+    { id: 11, name: 'Товар 11' },
+    { id: 12, name: 'Товар 12' }
+];
+
+console.log(goodsArray);
